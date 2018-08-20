@@ -333,7 +333,7 @@ sed -i $IP2 /etc/squid3/squid.conf;
 /etc/init.d/nginx restart
 /etc/init.d/squid3 restart
 
-	wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/nevermore1258/OpenVPN/master/Menu"
+	wget -O /usr/local/bin/menu "https://raw.githubusercontent.com/taohumyai/testscript/master/Menu"
 	chmod +x /usr/local/bin/menu
 	apt-get -y install vnstat
 	cd /etc/openvpn/easy-rsa/
